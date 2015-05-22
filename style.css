@@ -1,13 +1,17 @@
 #container
 {
 	margin: 0 30px;
-	background: #fff;
+	background: #e7e7e7;
+	background-image: url("ilu.jpg");
+	
 }
 
 #header
 {
-	background: #ccc;
+	background: #160c0c;
 	padding: 20px;
+	color: #fcf1f1;
+	
 }
 
 #header h1 { margin: 0; }
@@ -39,6 +43,7 @@
 	color: #fff;
 	text-decoration: none;
 	border-right: 1px solid #fff;
+	background-image: url("chirac.jpg");
 }
 
 #navigation li a:hover { background: #383; }
@@ -52,12 +57,14 @@
 	border-radius: 18px;
 	-webkit-box-shadow: 0px 0px 6px #000000;
 	box-shadow: 0px 0px 6px #000000;
-	background-image: -webkit-gradient(linear, left top, right top, from(#d6e1ff), to(#dbffe7));
-	background-image: -webkit-linear-gradient(left, #d6e1ff, #dbffe7);
-	background-image: linear-gradient(left, #d6e1ff, #dbffe7);
+	background-image: -webkit-gradient(linear, left top, right top, from(#000000), to(#000000));
+	background-image: -webkit-linear-gradient(left, #000000, #000000);
+	background-image: linear-gradient(left, #000000, #000000);
 	-webkit-background-clip: padding-box;
 	background-clip: padding-box;
-	opacity: 0.83;
+	
+	color: #000000;
+	background-image: url("chirac.jpg");
 }
 
 #edito h2
@@ -82,13 +89,21 @@
 	background-image: linear-gradient(left, #d6e1ff, #dbffe7);
 	-webkit-background-clip: padding-box;
 	background-clip: padding-box;
-	opacity: 0.83;
+	
+	background-image: url("chirac.jpg");
+}
+
+#chirac
+{
+	float:left;
+	padding-left: 20px;
+	color:white;
 }
 
 #footer
 {
 	clear: both;
-	background: #ccc;
+	background: #fcf1f1;
 	text-align: right;
 	padding: 20px;
 	height: 1%;
